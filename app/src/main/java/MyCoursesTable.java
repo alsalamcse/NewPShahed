@@ -61,6 +61,10 @@ public class MyCoursesTable extends SQLiteOpenHelper {
         int num = db.delete(TABLE_COURSES, KEY_ID + "=" + courses.get_id(), null);
         db.close();
         return num;
+        ///
+        //
+
+
 
     }
 
