@@ -82,14 +82,13 @@ public class MyCoursesTable extends SQLiteOpenHelper {
             course1.setNumber(cursor.getInt(2));
 
 
-            AllCourses.add(course1);
+            cousesList.add(course1);
             flag=cursor.moveToFirst();
 
 
                 cousesList.add(course1);
             } while (cursor.moveToNext());
-
+return cousesList;
         }
-        return  AllCourses;
     }
-}
+

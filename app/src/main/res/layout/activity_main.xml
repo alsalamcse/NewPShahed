@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ListView
-        android:id="@+id/lst"
+        android:id="@+id/lstCourse"
         android:layout_width="match_parent"
         android:layout_height="454dp"
         android:layout_alignParentTop="true"
