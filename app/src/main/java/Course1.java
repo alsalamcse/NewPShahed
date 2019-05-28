@@ -2,20 +2,20 @@ public class Course1 {
 
     private String name;
     private int number;
-    private int id;
+    private String id;
     private long _id;
 
     public Course1() {//دالة بنائية
 
     }
 
-    public Course1(String name, int number, int id) { //دالة بنائية
+    public Course1(String name, int number, String id) { //دالة بنائية
         this.name = name;
         this.number = number;
         this.id = id;
     }
 
-    public Course1(String name, int number, int id, long _id) {//دالة بنائية
+    public Course1(String name, int number, String id, long _id) {//دالة بنائية
         this.name = name;
         this.id = id;
         this.number = number;
@@ -30,7 +30,7 @@ public class Course1 {
         return number;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -48,7 +48,7 @@ public class Course1 {
     }
 
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

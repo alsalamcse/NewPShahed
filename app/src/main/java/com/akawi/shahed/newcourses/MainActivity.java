@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity
         initListview();
 
 
-
-
     }
     public void onClick(View v)
     {
@@ -33,8 +31,6 @@ public class MainActivity extends AppCompatActivity
             Intent intent=new Intent(MainActivity.this,AllCourses.class);
             startActivity(intent);
         }
-
-
 
     }
     private  void  initListview(){
